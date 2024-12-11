@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2592b7-a63e-4bb1-8ee8-f311d3361778" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/stream_web_site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db2592b7-a63e-4bb1-8ee8-f311d3361778" name="Changes" comment="+ Init repo&#10;+ Init empty django project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream_web_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_web_site/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "badprinter"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/badprinter/stream_site.git",
+    "accountId": "ea71993e-30cc-4350-ad8f-90cd82393e29"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -84,11 +93,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733948029430</updated>
-      <workItem from="1733948030441" duration="623000" />
+      <workItem from="1733948030441" duration="1970000" />
     </task>
+    <task id="LOCAL-00001" summary="+ Init repo&#10;+ Init empty django project">
+      <option name="closed" value="true" />
+      <created>1733948843227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733948843227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+ Init repo&#10;+ Init empty django project" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Init repo&#10;+ Init empty django project" />
   </component>
 </project>
