@@ -17,6 +17,7 @@ Including another URLconf
 # from django.contrib import admin
 from django.urls import path, re_path, include
 from account import views as account_views
+from account.Authentication import TokenCookieAuthentication
 
 urlpatterns = [
     #    path('admin/', admin.site.urls),
@@ -28,4 +29,6 @@ urlpatterns = [
 
     re_path(r'^api/v1/auth/', include('djoser.urls')),
     re_path(r'^auth/', include('djoser.urls.authtoken')),
+
+    re_path(r'^api/v2/login', TokenCookieAuthentication.as_view(), name='token_login'),
 ]

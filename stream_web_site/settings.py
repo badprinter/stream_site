@@ -51,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'stream_web_site.account.middleware.TokenFromCookieMidlleware',
 ]
 
 ROOT_URLCONF = 'stream_web_site.urls'

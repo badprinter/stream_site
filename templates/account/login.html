@@ -5,7 +5,7 @@
     <title>Login</title>
 </head>
 <body>
-    <form method="post" action="/auth/token/login/">
+    <form method="post" action="/api/v2/login/">
         {% csrf_token %}
         {{ form }} 
         <input type="submit" content="Enter"> 

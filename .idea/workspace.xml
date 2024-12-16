@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db2592b7-a63e-4bb1-8ee8-f311d3361778" name="Changes" comment="Init Django DRF&#10;+ requirements.txt">
-      <change afterPath="$PROJECT_DIR$/account/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/migrations/__init__.py" afterDir="false" />
+    <list default="true" id="db2592b7-a63e-4bb1-8ee8-f311d3361778" name="Changes" comment="add login and signup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream_web_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_web_site/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stream_web_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_web_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -53,29 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.stream_web_site.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.stream_web_site.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="stream_web_site" type="Python.DjangoServer" factoryName="Django server">
       <module name="stream_web_site" />
@@ -122,6 +122,8 @@
       <workItem from="1733948030441" duration="1970000" />
       <workItem from="1734132581860" duration="4076000" />
       <workItem from="1734153056233" duration="2412000" />
+      <workItem from="1734247796080" duration="208000" />
+      <workItem from="1734323243472" duration="2604000" />
     </task>
     <task id="LOCAL-00001" summary="+ Init repo&#10;+ Init empty django project">
       <option name="closed" value="true" />
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733948843227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add login and signup">
+      <option name="closed" value="true" />
+      <created>1734247973398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734247973398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+ Init repo&#10;+ Init empty django project" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Init repo&#10;+ Init empty django project" />
+    <MESSAGE value="add login and signup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add login and signup" />
   </component>
 </project>
